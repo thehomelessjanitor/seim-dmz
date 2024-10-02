@@ -162,6 +162,9 @@
         <mxCell id="ZxmlpRMbZkDIjYusYLqO-49" value="Security Onion&lt;div&gt;192.168.20.102&lt;/div&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application_server2" vertex="1" parent="1">
           <mxGeometry x="100" y="400" width="82.56" height="96" as="geometry" />
         </mxCell>
+        <mxCell id="ZxmlpRMbZkDIjYusYLqO-50" value="Debian Server&lt;div&gt;192.168.20.103&lt;/div&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application_server2" vertex="1" parent="1">
+          <mxGeometry x="100" y="610" width="86" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
