@@ -1,9 +1,135 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="HFJAN_Ck9s3v_qYVPRB3">
-    <mxGraphModel>
+    <mxGraphModel dx="1077" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="255" width="800" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" width="230" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.wireless_modem;" vertex="1" parent="1">
+          <mxGeometry x="395" y="11" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-3" value="" style="shape=mxgraph.signs.tech.ethernet;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400.5" y="76" width="49" height="23.76" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-4" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Hy1wEDmUm7Y499Dt1lTV-3" target="Hy1wEDmUm7Y499Dt1lTV-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="141" as="sourcePoint" />
+            <mxPoint x="230" y="91" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Hy1wEDmUm7Y499Dt1lTV-1" target="Hy1wEDmUm7Y499Dt1lTV-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="111" as="sourcePoint" />
+            <mxPoint x="400" y="121" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-7" value="Bridge" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/vpc/Bridge.svg;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="265" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-10" value="External Network" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="11" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hy1wEDmUm7Y499Dt1lTV-1" target="Hy1wEDmUm7Y499Dt1lTV-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="215" as="sourcePoint" />
+            <mxPoint x="290" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-14" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="675" width="320" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-15" value="Bridged Network&lt;div&gt;(VM ZONE)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="659" y="280" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-13" value="Internal Network&lt;div&gt;of the Host&lt;/div&gt;&lt;div&gt;192.168.127.0/24&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="679.31" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-1" value="&lt;div&gt;Fedora 40 Server&lt;/div&gt;&lt;div&gt;Host&lt;/div&gt;&lt;div&gt;192.168.20.100/24&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.traditional_server;" vertex="1" parent="1">
+          <mxGeometry x="395" y="111" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-17" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" width="230" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-18" value="Container&lt;div&gt;Networking&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Router.svg;" vertex="1" parent="1">
+          <mxGeometry x="210" y="156" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="Hy1wEDmUm7Y499Dt1lTV-18" target="Hy1wEDmUm7Y499Dt1lTV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="345" as="sourcePoint" />
+            <mxPoint x="310" y="295" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-20" value="Active Directory &amp;amp; Other&lt;div&gt;Windows 2022 Server&lt;/div&gt;&lt;div&gt;192.168.20.101&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" vertex="1" parent="1">
+          <mxGeometry x="599.5" y="535" width="60" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-21" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application_server2" vertex="1" parent="1">
+          <mxGeometry x="80" y="297.5" width="63" height="73.26" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-24" value="Windows Forest&lt;div&gt;Server Connection&lt;/div&gt;&lt;div&gt;192.168.127.2/24&lt;/div&gt;" style="shape=mxgraph.signs.tech.ethernet;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="600" y="692" width="59" height="28.61" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-26" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.566;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hy1wEDmUm7Y499Dt1lTV-24" target="Hy1wEDmUm7Y499Dt1lTV-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="645" as="sourcePoint" />
+            <mxPoint x="510" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-29" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hy1wEDmUm7Y499Dt1lTV-7" target="Hy1wEDmUm7Y499Dt1lTV-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="443" y="283" as="sourcePoint" />
+            <mxPoint x="629" y="555" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-28" value="" style="shape=mxgraph.signs.tech.ethernet;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="609" y="503.61" width="40" height="19.39" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-30" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hy1wEDmUm7Y499Dt1lTV-20" target="Hy1wEDmUm7Y499Dt1lTV-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="565" as="sourcePoint" />
+            <mxPoint x="590" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-31" value="Windows 10 Client&lt;div&gt;DHCP&lt;/div&gt;" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="510" y="830" width="62.400000000000006" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-32" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.483;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Hy1wEDmUm7Y499Dt1lTV-24" target="Hy1wEDmUm7Y499Dt1lTV-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="840" as="sourcePoint" />
+            <mxPoint x="530" y="798" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-33" value="Windows 11 Client&lt;div&gt;DHCP&lt;/div&gt;" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="706.6" y="830" width="62.400000000000006" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-34" value="" style="endArrow=none;html=1;rounded=0;entryX=0.471;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Hy1wEDmUm7Y499Dt1lTV-24" target="Hy1wEDmUm7Y499Dt1lTV-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="890" as="sourcePoint" />
+            <mxPoint x="650" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-35" value="Security Onion&lt;div&gt;Connection&lt;/div&gt;&lt;div&gt;192.168.127.3/24&lt;/div&gt;" style="shape=mxgraph.signs.tech.ethernet;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="498" y="693.06" width="63" height="30.55" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-38" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="Hy1wEDmUm7Y499Dt1lTV-1" target="Hy1wEDmUm7Y499Dt1lTV-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="250" as="sourcePoint" />
+            <mxPoint x="480.80500000000006" y="140.03999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hy1wEDmUm7Y499Dt1lTV-39" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.wireguard;" vertex="1" parent="1">
+          <mxGeometry x="490" y="123" width="34" height="34" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
